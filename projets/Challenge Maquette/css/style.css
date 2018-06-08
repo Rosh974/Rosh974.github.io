@@ -1,0 +1,219 @@
+@import url(knacss.css);
+
+/* @author : Prénom NOM */
+/* @date : 25/12/2016 */
+/* @bugfix : erreur à régler */
+/* @todo : à faire */
+/* @note :  */
+
+
+/* ----------------------------- */
+/* summary */
+/* ----------------------------- */
+/*
+1- couleurs
+2- base styles
+3- nav
+3- header
+4- main
+5- aside
+6- contact
+7- footer
+8- adaptive web design
+*/
+
+/* ----------------------------- */
+/* ==couleurs */
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==base styles */
+/* ----------------------------- */
+/* importation style de base avec @import url(knacss.css); */
+
+
+/* ----------------------------- */
+
+body{
+    background-color:#F8F9EB;
+
+}
+
+
+
+
+
+/* ----------------------------- */
+
+/* ==header */
+header {
+    background: url(../img/index.png), url(../img/particles.png), url(../img/index_fond.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+
+
+}
+.logo {
+    width: 250px;
+    margin-top: 40px;
+}
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==main */
+main {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+article {
+    background-color:gray;
+    width:20%;
+    height: 100%;
+    padding-left:17px;
+    padding-right:17px;
+
+}
+
+section hr{
+    border: solid 0.1em #fff;
+    width:30%;
+    margin-left:0;
+}
+
+.article1{
+    background-color:#ADCEB8;
+}
+
+.article2{
+    background-color:#ECC7A1;
+}
+.article3{
+    background-color:#CAEADE;
+}
+
+.article4{
+    background-color:#ADCEB8;
+}
+
+.square1{
+    background-color:#76927F;
+    width:20%;
+
+    text-align: center;
+    transform: rotate(330deg);
+    margin-top:15px;
+    margin-bottom:15px;
+
+    color:#fff;
+}
+
+
+.dayNumber{
+    transform: rotate(-330deg);
+}
+    
+.square2{
+    background-color:#AA5D61;
+    width:20%;
+
+    text-align: center;
+    transform: rotate(330deg);
+    margin-top:15px;
+    margin-bottom:15px;
+
+    color:#fff;
+}
+
+.square3{
+    background-color:#2D6F8A;
+    width:20%;
+
+    text-align: center;
+    transform: rotate(330deg);
+    margin-top:15px;
+    margin-bottom:15px;
+
+    color:#fff;
+}
+
+.square4{
+    background-color:#76927F;
+    width:20%;
+
+    text-align: center;
+    transform: rotate(330deg);
+    margin-top:15px;
+    margin-bottom:15px;
+
+    color:#fff;
+}
+
+
+.don{
+     background-color:#AA5D60;
+}
+
+.don .container{
+    margin: 0 auto;
+    width: 40%;
+    color:#fff;
+}
+
+.container hr{
+    border:1px solid #884A4D;
+}
+
+.container a{
+    color:#fff;
+}
+
+/* ----------------------------- */
+/* ==footer */
+
+
+
+footer .footer{
+    text-align:center;
+    color:#9C7889;
+}
+
+.footer p a {
+    color: #9C7889;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    list-style:none;
+    padding-left:10px;
+}
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==adaptive web design */
+/* ----------------------------- */
+
+@media screen and (max-width 500px){
+
+    header{ flex-direction:column};
+}
+
